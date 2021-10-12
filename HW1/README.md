@@ -6,6 +6,8 @@ Before loading the .csv file as pandas DataFrame, I deleted the first line of th
 Then, I dropped unnecessary columns and found the average temperature for each year. I did not converted the year value to the datetime, although it could have opened more possibilities with data aggregation and further visualization, it was not needed. 
 
 
+All code is in the Jupyter Notebook - *main.ipynb*
+
 **Visualization:**
 
 I used Matplotlib to replicate the plot.
