@@ -8,7 +8,7 @@ Then, I dropped unnecessary columns and found the average temperature for each y
 
 **Visualization:**
 
-I used Matplotlib to create replicate the plot.
+I used Matplotlib to replicate the plot.
 
 Result:
 
