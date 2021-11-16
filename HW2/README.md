@@ -1,27 +1,40 @@
-## Homework #1
+## Homework #2
 
-**General**
+### General
 
 All code is in the Jupyter Notebook - *main.ipynb*.
 
 Using common libraries:
 - pandas
 - numpy
-- PIL
-- altair (not used)
-- matplotlib
+- plotly (main for visualizations)
 
 
 **Data processing:**
 
-Before loading the .csv file as pandas DataFrame, I deleted the first line of the .csv file (title I guess), and saved it as *data.csv*.
-Then, I dropped unnecessary columns and found the average temperature for each year. I did not converted the year value to the datetime, although it could have opened more possibilities with data aggregation and further visualization, it was not needed. 
+All data processing was done in the Jupyter Notebook.
 
-**Visualization:**
+### Task 1: Як змінювалась структура генерації електроенергії за роками?
+My visualization:
 
-I used Matplotlib to replicate the plot.
+To answer the question, I used an area plot which shows all types of energy sources and their contribution to the total amount of energy produced. We can easily compare sources on the amount of energy produced, as well as track changes in the amount of energy produced over the years.
 
-Result:
+An alternative was a barplot, which would give columns instead of lines. It would contain the same information as this chart. Here I see a subjective assessment of which one is the best, some people like bar charts, I prefer lines or area plots because they have more outlined dynamics. *(I used bar chart in the Task#3)*
+
+It was also possible to approach this question differently and to make relative charts (it is possible both with area plot and bar chart). In this way, we will be able to see a much clearer difference between energy production over the years, but we will lose the amount of energy produced over the years. For me, information about the amount of energy produced was important, so I gave up on this idea.
+
+### Task 2: Як залежить споживання електроенергії від дня року та години доби?
+My visualization:
 
 
-![alt text](https://github.com/Katerunner/Visualization/blob/main/HW1/matplotlib%20plot%20result.png?raw=true)
+This was the most difficult task for me because we had to outline such dimensions as: time of day, day of the year and the amount of energy released. They all have a lot of data and to make them categorical variables would be inconvenient and ugly.
+So I decided to make a heapmap. The color on it reflects the amount of energy consumed. By following it, we can track changes in energy consumption for the day of the year and for the hour of the day and see all the dependencies we need.
+
+**The downside is that we don't see the energy consumption data very accurately because they are displayed in color, but because of this, I made all the graphs in this task interactive. You can hover over the data and get more information (works in Jupyter Notebook)**
+
+As an alternative - 3-D graphics, but I find them too complex for this task.
+
+### Task 3: Як змінюється генерація електроенергії з різних джерел впродовж доби?
+My visualization:
+
+This task is similar to the first task. Only unlike the first task, I used a bar chart here.
