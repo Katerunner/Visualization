@@ -9,7 +9,7 @@ Using common libraries:
 - numpy
 - plotly (main for visualizations)
 
-Unfortunately plotly cannot be compiled in the GitHub preview, so there is also HTML file to play with interective plots
+Unfortunately plotly cannot be compiled in the GitHub preview, so there is also HTML file to play with interactive plots
 
 **Data processing:**
 
