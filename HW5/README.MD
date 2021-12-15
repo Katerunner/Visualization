@@ -30,4 +30,14 @@ I implemented these functionalities in my visualization, but also made sure that
 
 This was not required in the task, but in my opinion it looks better when we hover the cursor, because we see more clearly what data we are hovering. This is especially useful on a line chart, where there are many lines that are close to each other.
 
-So when you hover the cursor over the map, we get the following:
+So when you hover the cursor over the map, you get the following:
+![alt text](https://github.com/Katerunner/Visualization/blob/main/HW5/on_map.png)
+
+And when you hover the cursor over the line, you will see:
+![alt text](https://github.com/Katerunner/Visualization/blob/main/HW5/on_line.png)
+
+The downside of my implementation may be the speed of change - it takes about a second to select the desired line and region.
+
+It is also worth noting that this is not some standard functionality in plotly, and I had to spend a long time understanding the documentation on how to make such an interactive functionality. The situation was complicated by the fact that this is a subplot that contains a map, and a similar scenario is not found on the forums.
+
+But thanks to this task, I am now very familiar with the library plotly, and although it was not the main in course (as an altair), but the experience of working with it will help me a lot in my future work :)
