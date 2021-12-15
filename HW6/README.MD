@@ -1,13 +1,13 @@
-## Homework #3
+## Homework #6
 
 ### General
 
 All code is in the Jupyter Notebook - *main.ipynb*.
 
 Using common libraries:
-- pandas
-- geopandas
 - numpy
+- json
+- pandas
 - plotly (main for visualizations)
 
 Unfortunately plotly cannot be compiled in the GitHub preview, so there is also HTML file to play with interactive plots
@@ -16,24 +16,44 @@ Unfortunately plotly cannot be compiled in the GitHub preview, so there is also 
 
 All data processing was done in the Jupyter Notebook.
 
-### Task 1: В яких країнах світу населення у 2100 році буде більшим, ніж було у 2000 році, а в яких меншим?
-My visualization:
-![alt text](https://github.com/Katerunner/Visualization/blob/main/HW3/1.png)
+### Task 1: Ідентифікувати та описати проблеми у цій візуалізації даних
+Original chart:
+![alt text](https://github.com/Katerunner/Visualization/blob/main/HW6/original.png)
 
-I used plotly for visualization which has hover area with additional info + it is interactive (you can scale them and move, select areas and so on). For the task I decided to plot the countries, which will have less population in 2100 to color with red (as a negative value) and countries with more population as green. In the hover area you can view the country name, less or more population in 2100 and the population itself (index is there by default, could not find the way how to hide it). This type of visualization is answering the question pretty well.
+So, the purpose of this visualization is to show the change in the structure of activities in the regions of Ukraine in 2017 compared to 2010. There are several issues with this visualization:
+- There are a lot of columns, not separated in any way
+- It is difficult to concentrate and find the right data quickly
+- Due to the fact that we have columns with relative data, we have a problem with comparing the parts of the columns that are responsible for the type of activity. The middle parts of the columns are difficult to compare because they can be at different heights.
 
-One thing is that you can see the borders of countries but no countries names. To fix this I decided to make the color with opacity (~ 0.4), and to put the openstreet map underneath. This map have ocean names, continent names and counties names depending on scale. *This will be also used in the next task.*
+In general, due to the last point, this graph does not reflect well the change in structure. We can notice a change in size (and it is difficult, because of the different heights), but we can not follow the significance of this change.
 
-### Task 2: На скільки відсотків збільшиться або зменшиться населення кожної країни у 2100 році у порівнянні з 2000 роком?
-My visualization:
-![alt text](https://github.com/Katerunner/Visualization/blob/main/HW3/2.png)
+### Task 2: Зробити альтернативний варіант презентації цих даних
+I have several options for visualizing this task, depending on the things we want to emphasize.
 
-Here the visualization is pretty similar to the previous task except the we have a continious scale colormap that represents the percentage change of population. I faced a problem with the default colormaps. We have min value of ~ -0.67 and the max ~ 13.67. Default colormaps (gradients) provide the color intersection somewhere in the middle. In our case zero change should be with the intersection of colors of the gradients, but zero is not in the middle of our scale. So I decided to make my own colormap with small red area for negative values and long yellow-to-green area of colormap for higher values.
+Version 1:
+![alt text](https://github.com/Katerunner/Visualization/blob/main/HW6/plot1.png)
 
-Information of the country name and population in 2100 you can get in the hover area. The one disadvantage can be the missing absolute change or population in 2000. But you it depends on how much info you want to provide. I believe that the visualizaztion answers the question perfectly.
+If we want to focus on activities, we can use several bar charts for each activity. In these diagrams, we will show the difference between 2010 and 2017 by the intersection of the columns with the value of the volume of these years, and the increase or decrease will be denoted by color. In addition, we will use interactive plotly functions, where we can take a closer look at the volume or difference through the hover area.
 
-### Task 3: Яким буде населення країн світу у 2100 році?
-My visualization:
-![alt text](https://github.com/Katerunner/Visualization/blob/main/HW3/4.png)
+This chart copes well with this task. There is a downside to it - it has not very visible regions, because there are many of them. But if we need to emphasize the type of activity and display all the regions, we can use the maps.
 
-Here I decided to go with the scatter diagram over the map outline. I encoded the population as the size of the circle as well as the color of the circle. I found out that my custom colormap fits this purpose very well and the difference in population can be easily visible by color and size. Visualization is interactive so you can see the name of the country and its population in 2100 in the hover area, as well as scale and move the map. Also, considering that the circles can be small of far away plotly does pretty good job at the comfortable distance where the hover area apears. As a downside I can say that I could not set the openstreet map as the background and we are left with outline only in this example.
+Version 2:
+![alt text](https://github.com/Katerunner/Visualization/blob/main/HW6/plot2.png)
+
+Here on the maps, we will also divide them into activities and mark the change from 2010 to 2017 with the color of the region. Color gives us a general understanding of the change in volume, but in order to see the exact data of the change, we use the interactive functions plotly - hover window.
+
+![alt text](https://github.com/Katerunner/Visualization/blob/main/HW6/plot2_1.png)
+
+We have no information about Crimea, but we will bring it out so that the borders of Ukraine can be clearly seen. We will also note that there is no data for this region.
+
+![alt text](https://github.com/Katerunner/Visualization/blob/main/HW6/plot2_2.png)
+
+Version 3:
+Dashboard:
+![alt text](https://github.com/Katerunner/Visualization/blob/main/HW6/plot3.png)
+
+As an option, we can make such a relative dashboard, where we can use the hierarchy by region -> year -> type of activities, and with the ability to browse within these categories and compare data.
+
+![alt text](https://github.com/Katerunner/Visualization/blob/main/HW6/plot3_1.png)
+We can view the exact data through the hover window.
+![alt text](https://github.com/Katerunner/Visualization/blob/main/HW6/plot3_2.png)
