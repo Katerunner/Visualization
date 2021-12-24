@@ -11,7 +11,8 @@ Jupyter file is to large for git repo as well as the html file. I dropped it on 
 
 >https://drive.google.com/drive/folders/1LmgBGMUvr2ANV86wsfw0hr6U7tis4ocG?usp=sharing
 
-If you want to run them, drop to the Visualization/Final Project folder (this one)
+If you want to run them, drop to the Visualization/Final Project folder (this one).<br>
+Also, my screen has wide resolution, so maybe some charts will be to wide for standard screens, I apologize for inconvinience/
 
 ---
 
