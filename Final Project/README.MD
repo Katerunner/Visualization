@@ -94,7 +94,9 @@ I decided to make the following visualization structure:
 - - left: immigration
 - Switch between modes with the slider by clicking right or left.
 - In the middle - a map that shows the number of people who immigrate (emigrate) using the size and color of the bubbles over the respective countries.
-- By turning on the move mode in plotly we can bring the map closer, the size of the bubbles will change accordingly, so we can get a good look at the details.
+- By turning on the move mode in plotly we can bring the map closer, the size of the bubbles will change accordingly, so we can get a good look at the details. The plotly toolbar is in upper right corner: 
+
+![alt text](https://i.ibb.co/ZGJZrbR/image-2021-12-24-18-08-19.png)
 - Hover window will be displayed when you hover over the bubble, showing us information about the country and the number of people who immigrated (emigrated)
 - On the right of the map we have a bar chart, which gives us sorted in descending order top-20 countries where Ukrainians emigrate, distributed across continents that are also highlighted in color.
 - On the left we have the same bar chart, but for immigration data.
