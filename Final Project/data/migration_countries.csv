@@ -1,0 +1,163 @@
+Total immigrants;Total emigrants;Migration increase;Country;Continent;code;iso_alpha
+29;156;-127;Austria;europe;40;AUT
+4;4;0;Albania;europe;8;ALB
+1;0;1;Andorra;europe;20;AND
+47;8;39;Belgium;europe;56;BEL
+1098;446;652;Belarus;europe;112;BLR
+50;37;13;Bulgaria;europe;100;BGR
+8;4;4;Bosnia and Herzegovina;europe;70;BIH
+1;0;1;Holy See;europe;336;VAT
+45;26;19;Greece;europe;300;GRC
+41;21;20;Denmark;europe;208;DNK
+34;33;1;Estonia;europe;233;EST
+19;10;9;Ireland;europe;372;IRL
+3;0;3;Iceland;europe;352;ISL
+104;83;21;Spain;europe;724;ESP
+291;100;191;Italy;europe;380;ITA
+77;77;0;Latvia;europe;428;LVA
+131;442;-311;Lithuania;europe;440;LTU
+0;0;0;Liechtenstein;europe;438;LIE
+1;1;0;Luxembourg;europe;442;LUX
+11;12;-1;North Macedonia;europe;807;MKD
+6;2;4;Malta;europe;470;MLT
+922;224;698;Moldova;europe;498;MDA
+0;0;0;Monaco;europe;492;MCO
+46;127;-81;Netherlands;europe;528;NLD
+330;1279;-949;Germany;europe;276;DEU
+25;7;18;Norway;europe;578;NOR
+546;389;157;Poland;europe;616;POL
+52;15;37;Portugal;europe;620;PRT
+3691;1852;1839;Russian Federation;europe;643;RUS
+115;64;51;Romania;europe;642;ROU
+0;0;0;San Marino;europe;674;SMR
+27;53;-26;Slovakia;europe;703;SVK
+7;18;-11;Slovenia;europe;705;SVN
+175;88;87;United Kingdom of Great Britain and Northern Ireland;europe;826;GBR
+116;186;-70;Hungary;europe;348;HUN
+11;7;4;Finland;europe;246;FIN
+152;108;44;France;europe;250;FRA
+38;62;-24;Croatia;europe;191;HRV
+97;282;-185;Czechia;europe;203;CZE
+33;22;11;Switzerland;europe;756;CHE
+34;20;14;Sweden;europe;752;SWE
+8;6;2;Argentina;america;32;ARG
+0;0;0;Bahamas;america;44;BHS
+0;0;0;Barbados;america;52;BRB
+0;0;0;Belize;america;84;BLZ
+1;1;0;Bolivia;america;68;BOL
+26;31;-5;Brazil;america;76;BRA
+7;3;4;Venezuela (Bolivarian Republic of);america;862;VEN
+0;0;0;Haiti;america;332;HTI
+20;0;20;Guyana;america;328;GUY
+0;1;-1;Guatemala;america;320;GTM
+1;0;1;Honduras;america;340;HND
+0;0;0;Grenada;america;308;GRD
+7;1;6;Dominican Republic;america;214;DOM
+94;105;-11;Ecuador;america;218;ECU
+93;83;10;Canada;america;124;CAN
+10;9;1;Colombia;america;170;COL
+2;1;1;Costa Rica;america;188;CRI
+8;1;7;Cuba;america;192;CUB
+14;6;8;Mexico;america;484;MEX
+0;0;0;Nicaragua;america;558;NIC
+2;0;2;Panama;america;591;PAN
+0;3;-3;Paraguay;america;600;PRY
+9;1;8;Peru;america;604;PER
+4;1;3;El Salvador;america;222;SLV
+689;1248;-559;USA;america;840;USA
+0;1;-1;Trinidad and Tobago;america;780;TTO
+0;0;0;Suriname;america;740;SUR
+1;0;1;Uruguay;america;858;URY
+4;0;4;Chile;america;152;CHL
+6;6;0;Jamaica;america;388;JAM
+1344;661;683;Azerbaijan;asia;31;AZE
+100;43;57;Afghanistan;asia;4;AFG
+35;58;-23;Bangladesh;asia;50;BGD
+0;1;-1;Bahrain;asia;48;BHR
+0;0;0;Bhutan;asia;64;BTN
+359;69;290;Armenia;asia;51;ARM
+141;54;87;Vietnam;asia;704;VNM
+565;243;322;Georgia;asia;268;GEO
+58;29;29;Yemen;asia;887;YEM
+485;337;148;Israel;asia;376;ISR
+1823;1362;461;India;asia;356;IND
+10;13;-3;Indonesia;asia;360;IDN
+232;276;-44;Iraq;asia;368;IRQ
+402;696;-294;Iran (Islamic Republic of);asia;364;IRN
+224;366;-142;Jordan;asia;400;JOR
+274;214;60;Kazakhstan;asia;398;KAZ
+1;0;1;Cambodia;asia;116;KHM
+60;28;32;Kyrgyzstan;asia;417;KGZ
+740;819;-79;China;asia;156;CHN
+10;10;0;Cyprus;asia;196;CYP
+9;9;0;Democratic People's Republic of Korea;asia;408;PRK
+63;71;-8;Republic of Korea;asia;410;KOR
+36;21;15;Kuwait;asia;414;KWT
+0;0;0;Lao People's Democratic Republic;asia;418;LAO
+372;240;132;Lebanon;asia;422;LBN
+5;3;2;Malaysia;asia;458;MYS
+23;10;13;Mongolia;asia;496;MNG
+0;0;0;Myanmar;asia;104;MMR
+45;11;34;Nepal;asia;524;NPL
+58;38;20;United Arab Emirates;asia;784;ARE
+2;2;0;Oman;asia;512;OMN
+50;67;-17;State of Palestine;asia;275;PSE
+211;103;108;Pakistan;asia;586;PAK
+45;27;18;Saudi Arabia;asia;682;SAU
+1;3;-2;Singapore;asia;702;SGP
+216;95;121;Syrian Arab Republic;asia;760;SYR
+188;50;138;Tajikistan;asia;762;TJK
+61;53;8;Thailand;asia;764;THA
+2199;1207;992;Turkey;asia;792;TUR
+925;543;382;Turkmenistan;asia;795;TKM
+987;556;431;Uzbekistan;asia;860;UZB
+27;10;17;Philippines;asia;608;PHL
+9;8;1;Sri Lanka;asia;144;LKA
+22;29;-7;Japan;asia;392;JPN
+314;233;81;Algeria;africa;12;DZA
+17;34;-17;Angola;africa;24;AGO
+3;0;3;Benin;africa;204;BEN
+2;1;1;Botswana;africa;72;BWA
+1;0;1;Burkina Faso;africa;854;BFA
+3;0;3;Burundi;africa;108;BDI
+2;3;-1;Gabon;africa;266;GAB
+4;7;-3;Gambia;africa;270;GMB
+150;233;-83;Ghana;africa;288;GHA
+35;19;16;Guinea;africa;324;GIN
+0;0;0;Guinea-Bissau;africa;624;GNB
+0;0;0;Djibouti;africa;262;DJI
+3;1;2;Equatorial Guinea;africa;226;GNQ
+0;0;0;Eritrea;africa;232;ERI
+12;11;1;Ethiopia;africa;231;ETH
+522;439;83;Egypt;africa;818;EGY
+15;17;-2;Zambia;africa;894;ZMB
+24;31;-7;Zimbabwe;africa;716;ZWE
+94;87;7;Cameroon;africa;120;CMR
+26;9;17;Kenya;africa;404;KEN
+89;48;41;Congo;africa;178;COG
+51;15;36;Congo;africa;178;COG
+5;2;3;Liberia;africa;430;LBR
+175;115;60;Libya;africa;434;LBY
+1;2;-1;Mauritania;africa;478;MRT
+3;3;0;Madagascar;africa;450;MDG
+2;0;2;Malawi;africa;454;MWI
+4;0;4;Mali;africa;466;MLI
+1422;784;638;Morocco;africa;504;MAR
+1;1;0;Mozambique;africa;508;MOZ
+5;10;-5;Namibia;africa;516;NAM
+9;7;2;Niger;africa;562;NER
+1000;575;425;Nigeria;africa;566;NGA
+21;13;8;South Africa;africa;710;ZAF
+11;4;7;Rwanda;africa;646;RWA
+8;2;6;Senegal;africa;686;SEN
+24;4;20;Somalia;africa;706;SOM
+106;43;63;Sudan;africa;729;SDN
+23;14;9;Tanzania;africa;834;TZA
+0;0;0;Togo;africa;768;TGO
+206;76;130;Tunisia;africa;788;TUN
+7;6;1;Uganda;africa;800;UGA
+3;1;2;Chad;africa;148;TCD
+26;19;7;Australia;oceania;36;AUS
+5;3;2;New Zealand;oceania;554;NZL
+0;0;0;Solomon Islands;oceania;90;SLB
+0;0;0;Fiji;oceania;242;FJI
